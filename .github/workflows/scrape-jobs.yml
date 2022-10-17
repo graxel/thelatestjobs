@@ -18,4 +18,4 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: A one-line script
-        run: cd $HOME; pwd; echo " - - - "; ls
+        run: cd $HOME; pwd; echo " - - - "; ls -R
